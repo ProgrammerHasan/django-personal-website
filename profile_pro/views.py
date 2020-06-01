@@ -15,3 +15,5 @@ def home(request):
         fail_silently=False)
         messages.success(request, 'Your Message Send successfully!')
     return render(request,'home/index.html')
+
+# Contact mail
