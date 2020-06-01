@@ -1,4 +1,4 @@
-# django-personal-website
+# Python django-personal-website
 Portfolio website with Django on a backend http://mehedihasan.dev
 
 # Django-personal-website
