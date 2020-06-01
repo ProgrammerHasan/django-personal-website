@@ -1,0 +1,121 @@
+::selection {
+  background: rgba(211, 29, 77, 0.3);
+}
+
+::-moz-selection {
+  background: rgba(211, 29, 77, 0.3);
+}
+
+.pill-button {
+  color: #20ffae;
+}
+
+.pill-button:hover, .pill-button.active {
+  color: #2cd4da;
+}
+
+.overlay-menu a:hover {
+  color: #2cd4da !important;
+}
+
+.overlay-menu a.active {
+  color: #2cd4da !important;
+}
+
+.bg-base-color {
+  background-color: #2cd4da !important;
+}
+
+.base-color {
+  color: #2cd4da !important;
+}
+
+.follow-label::before {
+  background-color: #2cd4da;
+}
+
+.social a:hover {
+  color: #2cd4da !important;
+}
+
+.social-icon a:hover {
+  color: #2cd4da;
+}
+
+#pp-nav li:hover span {
+  background-color: #2cd4da !important;
+}
+
+#pp-nav li .active span {
+  background-color: #2cd4da !important;
+}
+
+.border-style {
+  background-color: #2cd4da;
+}
+
+.timeline-icon {
+  border: 1px solid #2cd4da;
+  background-color: #2cd4da;
+}
+
+.timeline-year {
+  color: #2cd4da;
+}
+
+.timeline-item:before {
+  border: 1px solid #2cd4da;
+}
+
+.skill-box .fill-skillbar {
+  background-color: #2cd4da;
+}
+
+.portfolio .portfolio-filter li a {
+  color: #2cd4da;
+}
+
+.testimonial .owl-dot.active span {
+  background-color: #2cd4da;
+}
+
+.blog-link a:hover {
+  color: #c81846 !important;
+}
+
+.portfolio .portfolio-item-content:before {
+  background-color: rgba(211, 29, 77, 0.9);
+}
+
+.portfolio .portfolio-icon button i, .portfolio .portfolio-icon a i {
+  color: #2cd4da;
+}
+
+.testimonial .owl-carousel .owl-dot.active span {
+  background-color: #2cd4da;
+}
+
+.contact .form-item .form-control {
+  color: #2cd4da;
+}
+
+.loader {
+  border-top: 4px solid #2cd4da !important;
+}
+
+.flat-demo .button-border, .msx-dark.flat-demo .button-border {
+  background-color: #2cd4da;
+}
+
+.flat-demo .pill-button:hover, .flat-demo .pill-button.active {
+  background-color: #c81846;
+}
+
+.msx-dark .social-icon a:hover, .msx-dark .social a:hover {
+  color: #2cd4da !important;
+}
+
+.msx-dark #pp-nav li .active span {
+  background-color: #2cd4da !important;
+}
+/*# sourceMappingURL=red-color.css.map */

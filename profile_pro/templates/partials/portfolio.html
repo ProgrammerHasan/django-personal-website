@@ -1,0 +1,154 @@
+<section id="portfolio" class="section pp-scrollable portfolio" data-navigation-tooltip="PORTFOLIO">
+    {% load static %}
+    <div class="display-table">
+        <div class="display-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="title-wrapper">
+                            <span>My Work</span>
+                        </div>
+                        <div class="title-content">
+                            <h2 class="base-color">My Work</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!--   Portfolio Filters   -->
+                    <ul id="portfolio-filter" class="list-unstyled list-inline mb-0 col-lg-12 text-center portfolio-filter">
+                        <li class="button-border list-inline-item">
+                            <a href="#" data-filter="*" class="pill-button active">All</a>
+                        </li>
+                        <li class="button-border list-inline-item">
+                            <a href="#" data-filter=".webdesign" class="pill-button">Web Design</a>
+                        </li>
+                        <li class="button-border list-inline-item">
+                            <a href="#" data-filter=".mobiledesign" class="pill-button">Wep\App</a>
+                        </li>
+                        <li class="button-border list-inline-item">
+                            <a href="#" data-filter=".graphic" class="pill-button">Graphic Design</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="portfolio-items row">
+                    <!-- Item 01 -->
+                    <div class="col-lg-4 portfolio-item seo">
+                        <div class="image-border">
+                            <div class="portfolio-item-content">
+                                <img src="{% static 'img/portfolio/1.jpg' %}" alt="/" class="img-fluid">
+                                <div class="img-overlay text-center">
+                                    <div class="img-overlay-content">
+                                        <div class="portfolio-icon">
+                                            <button type="button" data-toggle="modal" data-target="#portfolio-single"><i class="lni-link"></i></button>
+                                            <a href="{% static 'img/portfolio/1.jpg' %}" class="js-zoom-gallery">
+                                                <i class="lni-search"></i>
+                                            </a>
+                                        </div>
+                                        <h5 class="mt-3 mb-0">My Work</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Item 02 -->
+                    <div class="col-lg-4 portfolio-item graphic webdesign">
+                        <div class="image-border">
+                            <div class="portfolio-item-content">
+                                <img src="{% static 'img/portfolio/2.jpg' %}" alt="/" class="img-fluid">
+                                <div class="img-overlay text-center">
+                                    <div class="img-overlay-content">
+                                        <div class="portfolio-icon">
+                                            <button type="button" data-toggle="modal" data-target="#portfolio-single"><i class="lni-link"></i></button>
+                                            <a href="{% static 'img/portfolio/2.jpg' %}" class="js-zoom-gallery">
+                                                <i class="lni-search"></i>
+                                            </a>
+                                        </div>
+                                        <h5 class="mt-3 mb-0">My Work</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Item 03 -->
+                    <div class="col-lg-4 portfolio-item webdesign graphic">
+                        <div class="image-border">
+                            <div class="portfolio-item-content">
+                                <img src="{% static 'img/portfolio/5.jpg' %}" alt="/" class="img-fluid">
+                                <div class="img-overlay text-center">
+                                    <div class="img-overlay-content">
+                                        <div class="portfolio-icon">
+                                            <button type="button" data-toggle="modal" data-target="#portfolio-single"><i class="lni-link"></i></button>
+                                            <a href="{% static 'img/portfolio/5.jpg' %}" class="js-zoom-gallery">
+                                                <i class="lni-search"></i>
+                                            </a>
+                                        </div>
+                                        <h5 class="mt-3 mb-0">My Work</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Item 04 -->
+                    <div class="col-lg-4 portfolio-item mobiledesign webdesign">
+                        <div class="image-border">
+                            <div class="portfolio-item-content">
+                                <img src="{% static 'img/portfolio/adminDashboardLaravel.png' %}" alt="/" class="img-fluid">
+                                <div class="img-overlay text-center">
+                                    <div class="img-overlay-content">
+                                        <div class="portfolio-icon">
+                                            <button type="button" data-toggle="modal" data-target="#portfolio-single"><i class="lni-link"></i></button>
+                                            <a href="{% static 'img/portfolio/adminDashboardLaravel.png' %}" class="js-zoom-gallery">
+                                                <i class="lni-search"></i>
+                                            </a>
+                                        </div>
+                                        <h5 class="mt-3 mb-0">My Work</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Item 05 -->
+                    <div class="col-lg-4 portfolio-item mobiledesign seo">
+                        <div class="image-border">
+                            <div class="portfolio-item-content">
+                                <img src="{% static 'img/portfolio/111.jpg' %}" alt="/" class="img-fluid">
+                                <div class="img-overlay text-center">
+                                    <div class="img-overlay-content">
+                                        <div class="portfolio-icon">
+                                            <button type="button" data-toggle="modal" data-target="#portfolio-single"><i class="lni-link"></i></button>
+                                            <a href="{% static 'img/portfolio/111.jpg' %}" class="js-zoom-gallery">
+                                                <i class="lni-search"></i>
+                                            </a>
+                                        </div>
+                                        <h5 class="mt-3 mb-0">My Work</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Item 06 -->
+                    <div class="col-lg-4 portfolio-item mobiledesign">
+                        <div class="image-border">
+                            <div class="portfolio-item-content">
+                                <img src="{% static 'img/portfolio/ms_webapp.png' %}" alt="/" class="img-fluid">
+                                <div class="img-overlay text-center">
+                                    <div class="img-overlay-content">
+                                        <div class="portfolio-icon">
+                                            <button type="button" data-toggle="modal" data-target="#portfolio-single"><i class="lni-link"></i></button>
+                                            <a href="{% static 'img/portfolio/ms_webapp.png' %}" class="js-zoom-gallery">
+                                                <i class="lni-search"></i>
+                                            </a>
+                                        </div>
+                                        <h5 class="mt-3 mb-0">My Work</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Item 07 -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
