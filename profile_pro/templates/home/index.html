@@ -34,10 +34,10 @@
   <link href="{% static 'css/main.css' %}?v=01" rel="stylesheet">
 </head>
 <body data-spy="scroll" data-target="#scrollspy" data-offset="1" class="msx-dark flat-demo">
-    <!--  Pre Loader  -->
+    <!--  Page Loader  -->
     <div id="overlayer"></div>
     <span class="loader"></span>
-    <!-- Portfolio Single Modal Start -->
+    <!-- Start Portfolio Single Modal -->
     <div class="portfolio-single modal fade" id="portfolio-single" tabindex="-1" role="dialog" aria-labelledby="portfolioModalScrollable" aria-hidden="true">
         <div class="modal-dialog modal-dialog-scrollable" role="document">
             <div class="modal-content text-muted">
@@ -106,7 +106,7 @@
         <div class="modal-dialog modal-dialog-scrollable" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title text-dark" id="blogModalScrollable">Write Your Dreams</h5>
+                    <h5 class="modal-title text-dark" id="blogModalScrollable">Software Programmer</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -121,9 +121,9 @@
                                         <div class="text-md-left">
                                             <h4 class="mb-4">The best way to become a good web designer</h4>
                                             <div class="image-border">
-                                                <img src="{% static 'img/blog-01.jpg' %}" alt="">
+                                                <img src="{% static 'img/portfolio/1.jpg' %}" alt="">
                                             </div>
-                                            <span class="d-inline-block py-4"> 1 April 2020
+                                            <span class="d-inline-block py-4"> 1 Jun 2020
                                         / By <span class="purple-color text-right"> Programmer Hasan. </span>
                                         </span>
                                             <p>These words are here to provide the reader with a basic impression of how actual text will appear in its final presentation. This is dummy copy. It is not meant to be read. It has been placed here solely to demonstrate the look and feel of finished, typeset text. These words are here to provide the reader with a basic impression of how actual text will appear in its final presentation. Only for show.</p>
@@ -532,46 +532,10 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-lg-12 mt-5 contact-form">
-                                <form id="contactForm">
-                                    <div class="row">
-                                        <div class="col-lg-6 form-item">
-                                            <div class="form-group">
-                                                <input name="name" id="name" type="text" class="form-control" placeholder="Your Name*" required >
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6 form-item">
-                                            <div class="form-group">
-                                                <input name="email" id="email" type="email" class="form-control" placeholder="Your Email*" required >
-                                            </div>
-                                        </div>
-                                        <div class="col-12 form-item">
-                                            <div class="form-group">
-                                                <input name="subject" id="subject" type="text" class="form-control" placeholder="Your Subject*" required >
-                                            </div>
-                                        </div>
-                                        <div class="col-12 form-item">
-                                            <div class="form-group">
-                                                <textarea name="comments" id="comments" rows="4" class="form-control" placeholder="Your message..."></textarea>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-12 mt-4 text-left">
-                                            <div class="button-border">
-                                                <a href="javascript:void(0)" class="pill-button" id="submit-btn" onclick="sendEmail()">Send Message</a>
-                                            </div>
-                                            <div id="message" class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-delay="4000" >
-                                                <div class="toast-body d-inline-block"></div>
-                                                <button type="button" class="pr-3 close" data-dismiss="toast" aria-label="Close">
-                                                    <span aria-hidden="true" class="lni-close size-xs "></span>
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
+                            {% include 'partials/contact-form.html' %}
                         </div>
                         <div class="row copy-right">
-                            <div class="col-12 text-center text-dark">
+                            <div class="col-12 text-center text-dark box-border" style="border-radius: 0px; border-top-left-radius: 15px;border-top-right-radius: 15px;padding-top: 10px;">
                                 <p> © 2020 <span class="base-color">Ms It Xpress</span>. All rights reserved.</p>
                             </div>
                         </div>
