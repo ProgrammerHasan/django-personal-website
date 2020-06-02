@@ -2,8 +2,6 @@
     {% load static %}
     <div id="message" class="text-success text-bold p-4" style="opacity: 1!important;background: transparent!important;">
       {% if messages %}
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/8.11.8/sweetalert2.all.min.js"></script>
-        <script src="{% static 'js/sweetalert2.js' %}"></script>
         {% for message in messages %}
           <h6 class="{{ message.tags }}">{{ message }}</h6>
         {% endfor %}
